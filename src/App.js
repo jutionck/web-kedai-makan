@@ -7,10 +7,7 @@ class App extends Component {
     render() {
         return (
             <>
-                {/*<HeaderComponent/>*/}
-                {/*<Hoc/>*/}
                 <HocLocalStorage/>
-
             </>
         )
 
