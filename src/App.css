@@ -28,46 +28,48 @@
   color: #61dafb;
 }
 
-.footer {
-  padding: 80px 0;
-  background: #282c34;
-}
+/*.footer {*/
+/*  padding: 80px 0;*/
+/*  background: #282c34;*/
+/*  bottom: 0;*/
+/*  width: 100%;*/
+/*}*/
 
-.footer-inner {
-  max-width: 1040px;
-  margin: 0 auto;
-}
+/*.footer-inner {*/
+/*  max-width: 1040px;*/
+/*  margin: 0 auto;*/
+/*}*/
 
-.footer-logo {
-  display: inline-block;
-}
+/*.footer-logo {*/
+/*  display: inline-block;*/
+/*}*/
 
-.footer-logo img {
-  height: 20px;
-}
+/*.footer-logo img {*/
+/*  height: 20px;*/
+/*}*/
 
-.footer-logo p {
-  color: #b1c0c0;
-  font-size: 12px;
-}
+/*.footer-logo p {*/
+/*  color: #b1c0c0;*/
+/*  font-size: 12px;*/
+/*}*/
 
-.footer-inner ul {
-  float: right;
-}
+/*.footer-inner ul {*/
+/*  float: right;*/
+/*}*/
 
-.footer-inner li {
-  color: white;
-  display: inline-block;
-  padding-left: 16px;
-}
+/*.footer-inner li {*/
+/*  color: white;*/
+/*  display: inline-block;*/
+/*  padding-left: 16px;*/
+/*}*/
 
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+/*input[type=text] {*/
+/*  width: 100%;*/
+/*  padding: 12px 20px;*/
+/*  margin: 8px 0;*/
+/*  box-sizing: border-box;*/
+/*}*/
 
 @keyframes App-logo-spin {
   from {

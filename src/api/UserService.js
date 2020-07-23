@@ -1,8 +1,10 @@
-const baseUrl = '/user'
+import axios from 'axios'
+const baseUrl = '/users'
 
 const getUsers = async () => {
-    let users = await fetch(baseUrl)
-    return await users.json()
-}
+    let token = sessionStorage.getItem("auth-token");
+    let users = await axios.get(baseUrl, { headers: { "auth-token": token } });
 
+    return  users;
+};
 export {getUsers}

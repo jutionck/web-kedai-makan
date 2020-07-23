@@ -8,18 +8,15 @@ class UserContainer extends Component {
         super(pros);
         this.state = {
             users : [],
-            userID: "",
-            username: "",
-            firstName: "",
-            lastName: "",
-            password:""
+            isLoading: true
         }
     }
 
     loadData = () => {
         getUsers().then(res => {
+            console.log(res)
             this.setState({
-                ...this.state, users: res.data
+                ...this.state, users: res.data, isLoading: false
             })
         })
     }
